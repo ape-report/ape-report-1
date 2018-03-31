@@ -1,0 +1,32 @@
+title: com.vons.shop
+
+# com.vons.shop
+
+[Google Play Store](https://play.google.com/store/apps/details?id=com.vons.shop)
+
+[Timeline](./vis-timeline.html)
+
+<iframe src="./vis-timeline.html" width="100%" height="500px" style="border:none;"></iframe>
+
+```
+// android.view.WindowManager$BadTokenException: Unable to add window -- token android.os.BinderProxy@1ba7abf is not valid; is your activity running?
+// 	at android.view.ViewRootImpl.setView(ViewRootImpl.java:567)
+// 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:310)
+// 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:85)
+// 	at android.app.Dialog.show(Dialog.java:319)
+// 	at com.safeway.mcommerce.android.StartPageActivity.showUpdateAvailableDialog(StartPageActivity.java:1105)
+// 	at com.safeway.mcommerce.android.StartPageActivity.showDialog(StartPageActivity.java:1213)
+// 	at com.safeway.mcommerce.android.StartPageActivity$MainHandler.handleMessage(StartPageActivity.java:2229)
+// 	at com.safeway.mcommerce.android.StartPageActivity$MainHandler.handleMessage(StartPageActivity.java:1984)
+// 	at com.safeway.mcommerce.android.util.LeakLessHandler.handleMessage(LeakLessHandler.java:24)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:148)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5417)
+// 	at java.lang.reflect.Method.invoke(Native Method)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+
+```
+
+
+

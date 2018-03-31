@@ -1,0 +1,43 @@
+title: com.bubadu.princess
+
+# com.bubadu.princess
+
+[Google Play Store](https://play.google.com/store/apps/details?id=com.bubadu.princess)
+
+[Timeline](./vis-timeline.html)
+
+<iframe src="./vis-timeline.html" width="100%" height="500px" style="border:none;"></iframe>
+
+```
+// *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+// Build fingerprint: 'google/hammerhead/hammerhead:6.0.1/M4B30Z/3437181:user/release-keys'
+// Revision: '11'
+// ABI: 'arm'
+// pid: 9183, tid: 12110, name: GLThread 7490  >>> com.bubadu.princess <<<
+// signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0
+//     r0 00000001  r1 00000000  r2 00004001  r3 99d4f8a0
+//     r4 97743a80  r5 987fa640  r6 00000000  r7 9f27f040
+//     r8 9c20d9f8  r9 00000000  sl 00000090  fp 00000050
+//     ip 00002f4e  sp 9f27f038  lr b6d37657  pc 9f6020cc  cpsr a00b0010
+// 
+// backtrace:
+//     #00 pc 000fe0cc  /data/app/com.bubadu.princess-1/lib/arm/libcorona.so
+//     #01 pc 0000cc04  /data/app/com.bubadu.princess-1/lib/arm/liblua.so
+//     #02 pc 0001ce18  /data/app/com.bubadu.princess-1/lib/arm/liblua.so
+//     #03 pc 0000d050  /data/app/com.bubadu.princess-1/lib/arm/liblua.so
+//     #04 pc 0000c35c  /data/app/com.bubadu.princess-1/lib/arm/liblua.so
+//     #05 pc 0000d1c8  /data/app/com.bubadu.princess-1/lib/arm/liblua.so
+//     #06 pc 000055a0  /data/app/com.bubadu.princess-1/lib/arm/liblua.so (lua_pcall+88)
+//     #07 pc 000f5978  /data/app/com.bubadu.princess-1/lib/arm/libcorona.so
+//     #08 pc 000d7b10  /data/app/com.bubadu.princess-1/lib/arm/libcorona.so
+//     #09 pc 0012f4d0  /data/app/com.bubadu.princess-1/lib/arm/libcorona.so
+//     #10 pc 00131480  /data/app/com.bubadu.princess-1/lib/arm/libcorona.so
+//     #11 pc 0012f988  /data/app/com.bubadu.princess-1/lib/arm/libcorona.so
+//     #12 pc 001306e4  /data/app/com.bubadu.princess-1/lib/arm/libcorona.so
+//     #13 pc 0002b540  /data/app/com.bubadu.princess-1/lib/arm/libcorona.so
+//     #14 pc 019c9ee5  /data/app/com.bubadu.princess-1/oat/arm/base.odex (offset 0x17da000)
+
+```
+
+
+

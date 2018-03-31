@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> de.stefanpledl.drummersmetronome</title>
+
+
+    <!-- Styles -->
+    <link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css"><!-- font-awesome -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css"><!-- Bootstrap -->
+    <link href="/css/pygments.css" rel="stylesheet" type="text/css"><!-- Pygments -->
+    <link href="/css/moon.css" rel="stylesheet" type="text/css"><!-- moon -->
+    <link href="/css/bibtex.css" rel="stylesheet" type="text/css"><!-- bibtex-->
+
+  </head>
+  <body role="document">
+    <div class="container">
+    <h1 id="destefanpledldrummersmetronome">de.stefanpledl.drummersmetronome</h1>
+<p><a href="https://play.google.com/store/apps/details?id=de.stefanpledl.drummersmetronome">Google Play Store</a></p>
+<p><a href="./vis-timeline.html">Timeline</a></p>
+<iframe src="./vis-timeline.html" width="100%" height="500px" style="border:none;"></iframe>
+
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16</pre></div></td><td class="code"><div class="codehilite"><pre><span class="o">//</span> <span class="nt">java</span><span class="nc">.lang.RuntimeException</span><span class="o">:</span> <span class="nt">An</span> <span class="nt">error</span> <span class="nt">occured</span> <span class="nt">while</span> <span class="nt">executing</span> <span class="nt">doInBackground</span><span class="o">()</span>
+<span class="o">//</span>  <span class="nt">at</span> <span class="nt">de</span><span class="nc">.stefanpledl.drummersmetronome.MyAsyncTask</span><span class="o">$</span><span class="nt">3</span><span class="nc">.done</span><span class="o">(</span><span class="nt">MyAsyncTask</span><span class="nc">.java</span><span class="nd">:163</span><span class="o">)</span>
+<span class="o">//</span>  <span class="nt">at</span> <span class="nt">java</span><span class="nc">.util.concurrent.FutureTask.finishCompletion</span><span class="o">(</span><span class="nt">FutureTask</span><span class="nc">.java</span><span class="nd">:354</span><span class="o">)</span>
+<span class="o">//</span>  <span class="nt">at</span> <span class="nt">java</span><span class="nc">.util.concurrent.FutureTask.setException</span><span class="o">(</span><span class="nt">FutureTask</span><span class="nc">.java</span><span class="nd">:223</span><span class="o">)</span>
+<span class="o">//</span>  <span class="nt">at</span> <span class="nt">java</span><span class="nc">.util.concurrent.FutureTask.run</span><span class="o">(</span><span class="nt">FutureTask</span><span class="nc">.java</span><span class="nd">:242</span><span class="o">)</span>
+<span class="o">//</span>  <span class="nt">at</span> <span class="nt">java</span><span class="nc">.util.concurrent.ThreadPoolExecutor.runWorker</span><span class="o">(</span><span class="nt">ThreadPoolExecutor</span><span class="nc">.java</span><span class="nd">:1113</span><span class="o">)</span>
+<span class="o">//</span>  <span class="nt">at</span> <span class="nt">java</span><span class="nc">.util.concurrent.ThreadPoolExecutor</span><span class="o">$</span><span class="nt">Worker</span><span class="nc">.run</span><span class="o">(</span><span class="nt">ThreadPoolExecutor</span><span class="nc">.java</span><span class="nd">:588</span><span class="o">)</span>
+<span class="o">//</span>  <span class="nt">at</span> <span class="nt">java</span><span class="nc">.lang.Thread.run</span><span class="o">(</span><span class="nt">Thread</span><span class="nc">.java</span><span class="nd">:818</span><span class="o">)</span>
+<span class="o">//</span> <span class="nt">Caused</span> <span class="nt">by</span><span class="o">:</span> <span class="nt">java</span><span class="nc">.lang.ArrayIndexOutOfBoundsException</span><span class="o">:</span> <span class="nt">length</span><span class="o">=</span><span class="nt">0</span><span class="o">;</span> <span class="nt">index</span><span class="o">=</span><span class="nt">1</span>
+<span class="o">//</span>  <span class="nt">at</span> <span class="nt">java</span><span class="nc">.util.Vector.arrayIndexOutOfBoundsException</span><span class="o">(</span><span class="nt">Vector</span><span class="nc">.java</span><span class="nd">:907</span><span class="o">)</span>
+<span class="o">//</span>  <span class="nt">at</span> <span class="nt">java</span><span class="nc">.util.Vector.elementAt</span><span class="o">(</span><span class="nt">Vector</span><span class="nc">.java</span><span class="nd">:328</span><span class="o">)</span>
+<span class="o">//</span>  <span class="nt">at</span> <span class="nt">de</span><span class="nc">.stefanpledl.drummersmetronome.MainActivity</span><span class="o">$</span><span class="nt">AsyncGetFullSample</span><span class="nc">.doInBackground</span><span class="o">(</span><span class="nt">MainActivity</span><span class="nc">.java</span><span class="nd">:229</span><span class="o">)</span>
+<span class="o">//</span>  <span class="nt">at</span> <span class="nt">de</span><span class="nc">.stefanpledl.drummersmetronome.MainActivity</span><span class="o">$</span><span class="nt">AsyncGetFullSample</span><span class="nc">.doInBackground</span><span class="o">(</span><span class="nt">MainActivity</span><span class="nc">.java</span><span class="nd">:214</span><span class="o">)</span>
+<span class="o">//</span>  <span class="nt">at</span> <span class="nt">de</span><span class="nc">.stefanpledl.drummersmetronome.MyAsyncTask</span><span class="o">$</span><span class="nt">2</span><span class="nc">.call</span><span class="o">(</span><span class="nt">MyAsyncTask</span><span class="nc">.java</span><span class="nd">:149</span><span class="o">)</span>
+<span class="o">//</span>  <span class="nt">at</span> <span class="nt">java</span><span class="nc">.util.concurrent.FutureTask.run</span><span class="o">(</span><span class="nt">FutureTask</span><span class="nc">.java</span><span class="nd">:237</span><span class="o">)</span>
+<span class="o">//</span>  <span class="o">...</span> <span class="nt">3</span> <span class="nt">more</span>
+</pre></div>
+</td></tr></table>
+    </div>
+
+    <footer class="footer" style="margin-top:10px;">
+      <div class="container">
+          <span class="text-muted">&copy; 2017 <a href="/"></a>. All rights reserved.</span>
+      </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="/js/jquery-3.2.1.min.js"></script>
+    <script src="/js/jquery-migrate-1.4.1.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    
+
+    
+  </body>
+</html>

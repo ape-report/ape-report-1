@@ -1,0 +1,44 @@
+title: com.bilkon.kidspiano
+
+# com.bilkon.kidspiano
+
+[Google Play Store](https://play.google.com/store/apps/details?id=com.bilkon.kidspiano)
+
+[Timeline](./vis-timeline.html)
+
+<iframe src="./vis-timeline.html" width="100%" height="500px" style="border:none;"></iframe>
+
+```
+// *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+// Build fingerprint: 'google/hammerhead/hammerhead:6.0.1/M4B30Z/3437181:user/release-keys'
+// Revision: '11'
+// ABI: 'arm'
+// pid: 16300, tid: 16325, name: UnityMain  >>> com.bilkon.kidspiano <<<
+// signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x9e580000
+//     r0 9a9a9840  r1 9e57fff0  r2 00000780  r3 00000000
+//     r4 00008893  r5 9ab9a9a0  r6 aef22000  r7 00001000
+//     r8 00008f37  r9 9e57f790  sl 00000001  fp 00001000
+//     ip a9d9def4  sp b3b7cf70  lr a9c4e0d3  pc b6c7b65a  cpsr 200e0030
+// 
+// backtrace:
+//     #00 pc 0001765a  /system/lib/libc.so (__memcpy_base+81)
+//     #01 pc 000750cf  /system/vendor/lib/egl/libGLESv2_adreno.so (core_glBufferData+530)
+//     #02 pc 0004c517  /system/vendor/lib/egl/libGLESv2_adreno.so (glBufferData+28)
+//     #03 pc 005d64a8  /data/app/com.bilkon.kidspiano-1/lib/arm/libunity.so
+//     #04 pc 005ac354  /data/app/com.bilkon.kidspiano-1/lib/arm/libunity.so
+//     #05 pc 005ac27c  /data/app/com.bilkon.kidspiano-1/lib/arm/libunity.so
+//     #06 pc 005bbd88  /data/app/com.bilkon.kidspiano-1/lib/arm/libunity.so
+//     #07 pc 005bd21c  /data/app/com.bilkon.kidspiano-1/lib/arm/libunity.so
+//     #08 pc 002b26fc  /data/app/com.bilkon.kidspiano-1/lib/arm/libunity.so
+//     #09 pc 002b1838  /data/app/com.bilkon.kidspiano-1/lib/arm/libunity.so
+//     #10 pc 00490dfc  /data/app/com.bilkon.kidspiano-1/lib/arm/libunity.so
+//     #11 pc 00258838  /data/app/com.bilkon.kidspiano-1/lib/arm/libunity.so
+//     #12 pc 002228d0  /data/app/com.bilkon.kidspiano-1/lib/arm/libunity.so
+//     #13 pc 006336c0  /data/app/com.bilkon.kidspiano-1/lib/arm/libunity.so
+//     #14 pc 00635bbc  /data/app/com.bilkon.kidspiano-1/lib/arm/libunity.so
+//     #15 pc 00782349  /data/app/com.bilkon.kidspiano-1/oat/arm/base.odex (offset 0x430000)
+
+```
+
+
+
